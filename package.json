@@ -1,6 +1,6 @@
 {
   "name": "gmailer",
-  "description": "Simple API to send messages from GMAIL"
+  "description": "Simple API to send messages from GMAIL",
   "keywords": ["gmail", "message", "send", "email", "mail"],
   "homepage": "https://github.com/like-falling-leaves/gmailer",
   "bugs": { "url": "https://github.com/like-falling-leaves/gmailer/issues" },
@@ -11,9 +11,7 @@
   "version": "0.0.1",
   "repository": { "type": "git", "url": "git://github.com/like-falling-leaves/gmailer.git" },
   "readmeFilename": "README.md",
-  "dependencies": { 
-    "request": "~2.45.0",
-  },
-  "devDependencies": { }
+  "dependencies": { "request": "~2.45.0"},
+  "devDependencies": {},
   "scripts": {}
 }
