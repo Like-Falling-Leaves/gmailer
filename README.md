@@ -21,7 +21,7 @@ This module has been tested under limited scenarios.  If you find any issues, pl
      {
        // from is optional.  it is only useful if you want to use a
        // name than the one associated with the account etc.
-       from: '"Some User" <someuser@example.com>",
+       from: '"Some User" <someuser@example.com>',
        // to is an array of email addresses
        to: [ 'someone@exapmple.com'],
        // you can pass any extra headers via headers
@@ -30,7 +30,7 @@ This module has been tested under limited scenarios.  If you find any issues, pl
          'Message-ID': "Some Unique ID yo"
        },
        // content-type is option and defaults to text/plain
-       contentType: 'text/html;chartset=utf8',
+       contentType: 'text/html;charset=utf8',
        // actual message body comes via body.
        body: "<html><div>Some piece of text</div></html>"
      },
